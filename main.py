@@ -1,6 +1,6 @@
 print("When entering the options, please enter them exactly as presented.")
 print("The world is ending")
-print("The year is 42069, and Artificial Intelligence has taken control of the world. It is your job to find survivors and supplies. Be careful, most automated or electronic devices may be controlled by the enemies.")
+print("The year is 69420, and Artificial Intelligence has taken control of the world. It is your job to find survivors and supplies. Be careful, most automated or electronic devices may be controlled by the enemies.")
 print("You were across the country from your family studying mechanical engineering in college. When the first attack occured, you were flying back home.")
 print("Unfortunately, your plane got controlled by AI and crash-landed into a lake. It is your job to find supplies and reach your family.")
 print("You wake up in the plane and take off your seatbelt, seeing the destruction around you. You have 5 minutes before the plane sinks beneath the lake.")
