@@ -33,27 +33,37 @@ if q == 1:
             
             print("You are able to escape safely and find your way to a police station, where you obtain weapons and a map. Additionally, you find a map of the surrounding region, seeing that your home town is only a 2 hour drive from here.")
             
-            u = int(input("You follow the road out the town. Enter '1' if you want to follow the main road or enter '2' if you want to take a longer route that will add an hour to your journey."))
-    
-            if u == 1:
+            v = int(input("Along with the other supplies you obtain in the station, you also see a laptop. Enter '1' to take the laptop or enter '2' to leave it behind."))
+              
+            if v == 1:
                 
-                print("The main road is patrolled by robots, that promptly capture and kill you.")\
+                print("The laptop was controlled by AI that was able to track your location and kill you.")
+                
+            elif v ==2:
+                
+                print("You leave the building.")
             
-            elif u ==2:
+                u = int(input("You follow the road out the town. Enter '1' if you want to follow the main road or enter '2' if you want to take a longer route that will add an hour to your journey."))
+    
+                if u == 1:
                 
-                print("You follow the road home, without any trouble. Unfortunately, when you arrive home, you find it empty.")
+                        print("The main road is patrolled by robots, that promptly capture and kill you.")
+            
+                elif u ==2:
+                    
+                        print("You follow the road home, without any trouble. Unfortunately, when you arrive home, you find it empty.")
             
                 v = int(input("Enter '1' if you want to stay home or enter '2' if you want to leave."))
                 
                 if v == 1:
                     
-                    print("After a few days your family comes back. Unfortunately, your brother did not survive, as he was killed gathering resources while you were driving back. He left an hour before you arrived. ")
+                        print("After a few days your family comes back. Unfortunately, your brother did not survive, as he was killed gathering resources while you were driving back. He left an hour before you arrived. ")
     
                 elif v == 2:
                     
-                    print("When you were searching for resources you got caught by a robot patrol, that shot you and your companions.")
-    
-elif s == 2: 
+                        print("When you were searching for resources you got caught by a robot patrol, that shot you and your companions.")
+        
+    elif s == 2: 
 
         print("Eventually, you go delirious due to a lack of water and kill the doctor. Later, you get cut on a twig and die without proper medical attention.")
 
@@ -72,4 +82,5 @@ elif q == 2:
     if r == 2:
 
         print("Your supplies are useless and you die of starvation.")
+
  
